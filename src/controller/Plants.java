@@ -9,5 +9,5 @@ package controller;
 public interface Plants {
 
 	
-	public Plant p = new Plant();
+	//public Plant p = new Plant();
 }

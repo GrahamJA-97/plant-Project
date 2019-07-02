@@ -21,16 +21,12 @@ public class Plant {
 	private Boolean herb;
 	private Boolean fruit;
 	private Integer seasons; // times of year it is active
-	private String webpage; // link to more information
+	private String webPage; // link to more information
 
 	/**
 	 * @param name
-	 * @param expectedHeight
 	 * @param waterAmount
 	 * @param waterFreq
-	 * @param lightLevel
-	 * @param lowTemp
-	 * @param highTemp
 	 */
 	public Plant(String name, Integer waterAmount, Integer waterFreq) {
 		this.name = name;
@@ -63,7 +59,7 @@ public class Plant {
 		this.herb = herb;
 		this.fruit = fruit;
 		this.seasons = seasons;
-		this.webpage = webPage;
+		this.webPage = webPage;
 	}
 
 	/**
@@ -137,10 +133,10 @@ public class Plant {
 	}
 
 	/**
-	 * @return the webpage
+	 * @return the webPage
 	 */
-	public String getWebpage() {
-		return webpage;
+	public String getWebPage() {
+		return webPage;
 	}
 
 }

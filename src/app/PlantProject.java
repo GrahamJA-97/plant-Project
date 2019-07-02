@@ -7,7 +7,7 @@ import javax.swing.SwingUtilities;
 import gui.mainWindow;
 
 /**
- * (enter class description)
+ * Class to start the GUI for the Plant Project app
  *
  * @author Jake Graham
  * @version
