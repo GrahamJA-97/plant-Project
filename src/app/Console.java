@@ -1,4 +1,5 @@
-package com.SecretCompany;
+package app;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +13,7 @@ import java.util.List;
  * @author Jake Graham
  * @Version 1.0
  */
-public class App {
+public class Console {
 
     public static void main(String[] args) {
         titleScreen();
