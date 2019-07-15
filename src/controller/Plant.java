@@ -2,7 +2,7 @@ package controller;
 
 /**
  * Basic Plant Object.
- * 
+ *
  * @author Jake Graham
  * @version
  */
@@ -16,10 +16,10 @@ public class Plant {
 	// Additional information
 	private Integer expectedHeight; // in cm
 	private Integer lightLevel; // low, medium, high
-	private Integer lowTemp;
-	private Integer highTemp;
-	private Boolean herb;
-	private Boolean fruit;
+	// private Integer lowTemp;
+	// private Integer highTemp;
+	// private Boolean herb;
+	// private Boolean fruit;
 	private Integer seasons; // times of year it is active
 	private String webPage; // link to more information
 
